@@ -33,6 +33,7 @@
   float: right;
   margin: 1px;
   border-radius: 3px;
+  border: none;
 }
 
 * {
