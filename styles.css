@@ -1,6 +1,6 @@
 .octocat img {
   height: 300px;
-  border: 1px solid gray;
+  border: 1px solid lightgrey;
 }
 
 .octodex {
@@ -9,21 +9,27 @@
 }
 
 .image-footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgrey;
+  height: 32px;
 }
 .image-number {
+  border: 1px solid red;
 }
 
 .image-caption {
-  position: relative;
-  left: 90px;
-  bottom: 20px;
+  /* position: relative;
+  left: -62px; */
+  border: 1px solid red;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .authors img {
-  height: 15px;
-  position: relative;
-  left: 109px;
-  bottom: 20px;
+  height: 18px;
+  float: right;
 }
 
 * {
@@ -37,4 +43,13 @@ a:link {
 a:visited {
   font-weight: bold;
   color: black;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: middle;
 }
