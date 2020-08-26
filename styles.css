@@ -1,11 +1,13 @@
 .octocat img {
   height: 300px;
   border: 1px solid lightgrey;
+  border-radius: 5px;
 }
 
 .octodex {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin: 60px;
 }
 
 .image-footer {
@@ -15,14 +17,13 @@
   border-bottom: 1px solid lightgrey;
   height: 32px;
 }
-.image-number {
-  border: 1px solid red;
+.image-number::before {
+  content: "#";
 }
 
 .image-caption {
   /* position: relative;
   left: -62px; */
-  border: 1px solid red;
   display: inline-block;
   vertical-align: middle;
 }
@@ -30,6 +31,8 @@
 .authors img {
   height: 18px;
   float: right;
+  margin: 1px;
+  border-radius: 3px;
 }
 
 * {
@@ -38,6 +41,8 @@
 
 a:link {
   font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
 
 a:visited {
