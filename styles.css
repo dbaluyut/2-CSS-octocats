@@ -9,16 +9,21 @@
 }
 
 .image-footer {
-  display: flex;
 }
 .image-number {
 }
 
 .image-caption {
+  position: relative;
+  left: 90px;
+  bottom: 20px;
 }
 
 .authors img {
-  height: 30px;
+  height: 15px;
+  position: relative;
+  left: 109px;
+  bottom: 20px;
 }
 
 * {
